@@ -1,0 +1,127 @@
+* {
+  background-color: rgb(22, 24, 24);
+  color: white;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: red;
+  color: white;
+}
+
+.active {
+  background-color: red;
+}
+
+#text1 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#customRadio1 {
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #ff0000;
+  appearance: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+}
+
+#customRadio1:checked {
+  background-color: #ff0000;
+}
+
+#customRadio2 {
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #00ff00;
+  appearance: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+}
+
+#customRadio2:checked {
+  background-color: #00ff00;
+}
+
+#customRadio3 {
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #1e90ff;
+  appearance: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+}
+
+#customRadio3:checked {
+  background-color: #1e90ff;
+}
+
+#customRadio4 {
+  border: 2px solid white;
+  box-shadow: 0 0 0 1px #9370db;
+  appearance: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  transition: all ease-in 0.2s;
+}
+
+#customRadio4:checked {
+  background-color: #9370db;
+}
+
+.btnleft {
+  border-radius: 25px;
+  border-color: #f44336;
+  color: white;
+}
+
+.btnleft:hover {
+  background-color: red;
+  color: white;
+}
+
+.card {
+  border: 1px rgb(22, 24, 24);
+}
+
+.bullets {
+  list-style: none;
+  padding-top: 200px;
+}
+
+.bullets li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.btn-circle.btn-md {
+  width: 50px;
+  height: 50px;
+  padding: 7px 10px;
+  border-radius: 25px;
+  font-size: 10px;
+  text-align: center;
+  border: 1px solid white;
+  margin-top: 50px;
+}
+
